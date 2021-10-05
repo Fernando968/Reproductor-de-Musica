@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Musica</title>
+</head>
+<body>
+    <div class="main-container">}
+        <div class="searcher">
+            <label for="search-input">Buscar</label>
+            <input type="text" name="" id="search-input">
+        </div>
+        <div class="list-container" id="list-container"></div>
+        <div class="playing-card">
+            <div class="cover-card" id="cover-card">
+                <img id="cover-card-img" src="Img/the-nights-artwork.jpg" alt="">
+            </div>
+            <div class="title-card"></div>
+            <input type="range" class="barra" id="barra">
+            <div class="controls-container">
+                <button id="prev-button"><i class="fas fa-backward"></i></button>
+                <button id="play-button"><i id="play-icon"class="icon-style fas fa-play"></i></button>
+                <button id="next-button"><i class="fas fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+    <audio src="Audios/Avicii-TheNights.mp3" id="audio"></audio>
+    <script src="JS/principal.js"></script>
+</body>
+</html>
+

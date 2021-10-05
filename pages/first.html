@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/first.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="main-container">
+        <div>
+            <div class="img-container">
+                <Img class="imagen" id="imagen" src="Img/the-nights-artwork.jpg"></Img>
+            </div>
+            <input type="range" id="barra" min="0">
+            <div class="buttons-container">
+                <button class="boton" id="play">
+                    <i id="play-icon"class="icon-style fas fa-play"></i>
+                </button>
+                <button class="boton" id="stop">
+                    <i id="pause-icon"class="icon-style fas fa-stop"></i>
+                </button>
+                <button class="boton" id="pause">
+                    <i id="stop-icon"class="icon-style fas fa-pause"></i>
+                </button>
+            </div>
+            <div class="volume-buttons-container">
+                <button class="volume-style" id="volume-up">+</button>
+                <button class="volume-style" id="volume-down">-</button>
+            </div>
+        </div>
+    </div>
+    <audio id="audio" src="Audios/MP3TECA.WS - Avicii - The Nights (Lyrics).mp3"></audio>
+    <script src="JS/script.js"></script> 
+    
+</body>
+</html>
